@@ -1,0 +1,24 @@
+body{
+    background-image: url("C:\Users\melissa.goulart\Desktop\project_page_login\img\0f0c7ef0a169f011692fa8ef8a2f1ae7.png");
+    /* background */
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url();*/
+}
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 48px 0px;
+gap: 818px;
+
+position: absolute;
+width: 1216px;
+height: 176px;
+left: 352px;
+top: 0px;
+}
