@@ -1,0 +1,38 @@
+# Ghibli Landing Page
+
+Este é um projeto de uma landing page simples desenvolvida com HTML e CSS.
+Esta landing page foi criada como exemplo para demonstrar habilidades básicas de desenvolvimento web utilizando HTML e CSS.
+
+## Descrição
+
+Esta landing page foi criada como exemplo para demonstrar habilidades básicas de desenvolvimento web utilizando HTML e CSS.
+
+## Pré-requisitos
+
+Não há pré-requisitos para visualizar a landing page. Basta abrir o arquivo index.html em qualquer navegador web.
+
+## Instalação
+
+Não é necessária nenhuma instalação. Basta clonar ou baixar este repositório e abrir o arquivo index.html em seu navegador.
+
+## Uso
+
+Abra o arquivo index.html em um navegador web para visualizar a landing page. Você pode clicar nos links e interagir com os elementos da página.
+
+## Estrutura de Arquivos
+
+- index.html: Contém o código HTML da landing page.
+- styles.css: Arquivo CSS com estilos para a página.
+- assets/: Pasta contendo imagens e outros recursos utilizados na página.
+
+## Autor
+Melissa Goulart
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
