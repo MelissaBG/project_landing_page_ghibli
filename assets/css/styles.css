@@ -1,24 +1,96 @@
 body{
-    background-image: url("C:\Users\melissa.goulart\Desktop\project_page_login\img\0f0c7ef0a169f011692fa8ef8a2f1ae7.png");
-    /* background */
+    /*background-image: url('../../img/0f0c7ef0a169f011692fa8ef8a2f1ae7.png');*/
+    background-image: url('../img/0f0c7ef0a169f011692fa8ef8a2f1ae7.png');
+    background-size: cover; /* Isso garante que a imagem de fundo cubra toda a área do corpo */
+    background-repeat: no-repeat; /* Isso garante que a imagem de fundo não se repita */
     position: absolute;
     left: 0px;
     right: 0px;
     top: 0px;
     bottom: 0px;
-    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url();*/
 }
 .header{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 48px 0px;
-gap: 818px;
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente */
+}
+.elemento {
+    width: 1216px; /* Largura fixa de 1216 pixels */
+    height: auto; /* Altura ajustada automaticamente para abraçar o conteúdo */
+    left: 352px; /* Distância da esquerda de 352 pixels */
+    justify-content: space-between; /* Espaço entre os elementos */
+    padding: 48px 0; /* Padding: 48px em cima e embaixo, 0px nos lados */
+}
+.logo {
+    background-image: url('../img/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-right: 24px; /* Espaçamento entre o logo e os ícones das redes sociais */
+}
 
-position: absolute;
-width: 1216px;
-height: 176px;
-left: 352px;
-top: 0px;
+.redes-sociais {
+    display: flex;
+    align-items: center; /* Alinha os ícones e o logo verticalmente */
+    margin-left: auto; /* Empurra a div redes-sociais para a direita */
+}
+
+.redes-sociais img {
+    width: 30px; /* Largura dos ícones das redes sociais */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    margin-left: 10px; /* Espaçamento entre os ícones */
+    margin-right: 24px; /* Espaçamento entre os ícones */
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    align-items: stretch; /* Faz com que os elementos estiquem para ocupar toda a altura */
+    width: 1216px; /* Largura fixa de 1216 pixels */
+    height: 423.8px; /* Altura fixa de 423.8 pixels */
+}
+
+
+/*Botões*/
+
+.assistir-agora{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 8px;
+
+    width: 240px;
+    height: 52px;
+
+    background: #F1A5B1;
+    border-radius: 4px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.assistir-trailer{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    gap: 8px;
+
+    width: 230px;
+    height: 52px;
+
+    border: 2px solid #F1A5B1;
+    border-radius: 4px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
 }
