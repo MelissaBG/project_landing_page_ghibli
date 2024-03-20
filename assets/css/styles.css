@@ -12,6 +12,11 @@ body{
 .header{
     display: flex;
     align-items: center; /* Alinha os elementos verticalmente */
+    left: 352px;
+    width: 100%;
+    max-width: 1216px;
+    justify-content: space-between;
+    padding:  0 48px ;
 }
 .elemento {
     width: 1216px; /* Largura fixa de 1216 pixels */
@@ -19,6 +24,7 @@ body{
     left: 352px; /* Distância da esquerda de 352 pixels */
     justify-content: space-between; /* Espaço entre os elementos */
     padding: 48px 0; /* Padding: 48px em cima e embaixo, 0px nos lados */
+
 }
 .logo {
     background-image: url('../img/logo.svg');
@@ -26,31 +32,44 @@ body{
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
-    margin-right: 24px; /* Espaçamento entre o logo e os ícones das redes sociais */
-}
-
-.redes-sociais {
-    display: flex;
-    align-items: center; /* Alinha os ícones e o logo verticalmente */
-    margin-left: auto; /* Empurra a div redes-sociais para a direita */
+    margin-right: 12px; /* Espaçamento entre o logo e os ícones das redes sociais */
 }
 
 .redes-sociais img {
     width: 30px; /* Largura dos ícones das redes sociais */
     height: auto; /* Altura ajustada automaticamente para manter a proporção */
-    margin-left: 10px; /* Espaçamento entre os ícones */
-    margin-right: 24px; /* Espaçamento entre os ícones */
+    margin-left: 12px; /* Espaçamento entre os ícones */
+}
+
+
+.google {
+    background-image: url('../img/link-google.png');
+}
+
+.instagram {
+    background-image: url('../img/link-instagram.png')
+}
+
+.twitter {
+    background-image: url('../img/link-twitter.png')
+}
+
+.facebook {
+    background-image: url('../img/logo-facebook.png')
 }
 
 .grupo{
     display: flex;
     flex-direction: column; /* Alinha os elementos verticalmente */
     justify-content: space-between; /* Distribui o espaço entre os elementos */
-    align-items: stretch; /* Faz com que os elementos estiquem para ocupar toda a altura */
-    width: 1216px; /* Largura fixa de 1216 pixels */
-    height: 423.8px; /* Altura fixa de 423.8 pixels */
+    top: 320px; /* Define a distância do topo como 320 pixels */
+    align-items: center; /* Alinha os elementos verticalmente */
+    left: 352px;
+    width: 100%;
+    max-width: 1216px;
+    justify-content: space-between;
+    padding: 0 48px;
 }
-
 
 /*Botões*/
 
@@ -93,4 +112,18 @@ body{
     order: 1;
     flex-grow: 0;
 
+}
+.button-group{
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        font-family: inherit;
+        cursor: pointer;
+        outline: none;
+}
+.ghost{
+    background-image: url('../img/illustration.png');
+    background-repeat: no-repeat; /* Isso garante que a imagem de fundo não se repita */
+    width: ;
+    height: ;
 }
